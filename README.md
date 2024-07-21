@@ -15,7 +15,8 @@ DATABASE_URL = "mysql+mysqlconnector://username:password@host:port/dbname"
 pip install fastapi uvicorn sqlalchemy pydantic mysql-connector-python
 ```
 
-然后 `cd`到`app`文件夹，执行``` 
+然后 `cd`到`app`文件夹，执行
+``` 
 uvicorn main:app --reload
 ```
 即可完成部署。
